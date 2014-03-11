@@ -29,16 +29,31 @@ public class JoinActivity extends Activity implements  View.OnClickListener {
 		m_oBtnSignin.setOnClickListener(this);
 	}
 	@Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		super.onBackPressed();
+		System.exit(0);
+	}
+	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		switch(v.getId())
 		{
-		
 			case R.id.btn_sign:
 			{
 				Intent i = new Intent(JoinActivity.this, FollowFriendActivity.class);
-				
 				startActivity(i);
+				finish();
+
 				break;
 			}
 		}

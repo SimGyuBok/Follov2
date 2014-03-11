@@ -1053,15 +1053,17 @@ containing a value of this type.
         public static final int btn_loading03=0x7f020072;
         public static final int btn_loading04=0x7f020073;
         public static final int btn_loading05=0x7f020074;
-        public static final int default_pf=0x7f020075;
-        public static final int email=0x7f020076;
-        public static final int first=0x7f020077;
-        public static final int ic_launcher=0x7f020078;
-        public static final int login=0x7f020079;
-        public static final int passwordchaf=0x7f02007a;
-        public static final int shadow=0x7f02007b;
-        public static final int signaf=0x7f02007c;
-        public static final int signbefore=0x7f02007d;
+        public static final int checkaf=0x7f020075;
+        public static final int checkbf=0x7f020076;
+        public static final int default_pf=0x7f020077;
+        public static final int email=0x7f020078;
+        public static final int first=0x7f020079;
+        public static final int ic_launcher=0x7f02007a;
+        public static final int login=0x7f02007b;
+        public static final int passwordchaf=0x7f02007c;
+        public static final int shadow=0x7f02007d;
+        public static final int signaf=0x7f02007e;
+        public static final int signbefore=0x7f02007f;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f060027;
@@ -1104,40 +1106,41 @@ containing a value of this type.
         public static final int abs__title=0x7f060020;
         public static final int abs__titleDivider=0x7f060021;
         public static final int abs__up=0x7f06000b;
-        public static final int action_settings=0x7f06004b;
-        public static final int btn_sign=0x7f060044;
-        public static final int content_frame=0x7f060048;
+        public static final int action_settings=0x7f06004c;
+        public static final int btn_sign=0x7f060045;
+        public static final int check_friend=0x7f060038;
+        public static final int content_frame=0x7f060049;
         public static final int disableHome=0x7f060009;
         public static final int edit_query=0x7f06002c;
         public static final int fullscreen=0x7f060013;
         public static final int homeAsUp=0x7f060006;
-        public static final int join_email=0x7f06003f;
-        public static final int join_pwd=0x7f060040;
-        public static final int join_pwd_check_btn=0x7f060042;
-        public static final int join_pwd_check_img=0x7f060043;
-        public static final int join_pwd_check_txt=0x7f060041;
+        public static final int join_email=0x7f060040;
+        public static final int join_pwd=0x7f060041;
+        public static final int join_pwd_check_btn=0x7f060043;
+        public static final int join_pwd_check_img=0x7f060044;
+        public static final int join_pwd_check_txt=0x7f060042;
         public static final int left=0x7f060010;
-        public static final int left_menu_login=0x7f060039;
-        public static final int left_menu_no_login=0x7f060038;
+        public static final int left_menu_login=0x7f06003a;
+        public static final int left_menu_no_login=0x7f060039;
         public static final int listMode=0x7f060002;
-        public static final int loading=0x7f060046;
-        public static final int loading_layout=0x7f060045;
+        public static final int loading=0x7f060047;
+        public static final int loading_layout=0x7f060046;
         public static final int margin=0x7f060012;
-        public static final int menu_frame=0x7f060049;
-        public static final int musician_join=0x7f06003d;
-        public static final int musician_join_2=0x7f06003e;
-        public static final int name_home_left=0x7f06003b;
+        public static final int menu_frame=0x7f06004a;
+        public static final int musician_join=0x7f06003e;
+        public static final int musician_join_2=0x7f06003f;
+        public static final int name_home_left=0x7f06003c;
         public static final int normal=0x7f060001;
-        public static final int profile_image=0x7f06003a;
+        public static final int profile_image=0x7f06003b;
         public static final int right=0x7f060011;
         public static final int selected_view=0x7f060014;
         public static final int showCustom=0x7f060008;
         public static final int showHome=0x7f060005;
         public static final int showTitle=0x7f060007;
-        public static final int slidingmenumain=0x7f06004a;
+        public static final int slidingmenumain=0x7f06004b;
         public static final int tabMode=0x7f060003;
-        public static final int team_name_home_left=0x7f06003c;
-        public static final int title=0x7f060047;
+        public static final int team_name_home_left=0x7f06003d;
+        public static final int title=0x7f060048;
         public static final int useLogo=0x7f060004;
         public static final int wrap_content=0x7f060000;
     }
@@ -1173,13 +1176,14 @@ containing a value of this type.
         public static final int follow_friend=0x7f030018;
         public static final int home_left_menu=0x7f030019;
         public static final int join=0x7f03001a;
-        public static final int loading_layout=0x7f03001b;
-        public static final int main=0x7f03001c;
-        public static final int main_home=0x7f03001d;
-        public static final int menu_frame=0x7f03001e;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001f;
-        public static final int sherlock_spinner_item=0x7f030020;
-        public static final int slidingmenumain=0x7f030021;
+        public static final int join_profile=0x7f03001b;
+        public static final int loading_layout=0x7f03001c;
+        public static final int main=0x7f03001d;
+        public static final int main_home=0x7f03001e;
+        public static final int menu_frame=0x7f03001f;
+        public static final int sherlock_spinner_dropdown_item=0x7f030020;
+        public static final int sherlock_spinner_item=0x7f030021;
+        public static final int slidingmenumain=0x7f030022;
     }
     public static final class menu {
         public static final int main=0x7f0d0000;
@@ -1354,7 +1358,8 @@ containing a value of this type.
         public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0c0032;
     }
     public static final class xml {
-        public static final int btn_join=0x7f050000;
+        public static final int btn_follow_friend=0x7f050000;
+        public static final int btn_join=0x7f050001;
     }
     public static final class styleable {
         /**  Attributes used to style the Action Bar. 

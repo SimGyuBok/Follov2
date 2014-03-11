@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -18,19 +19,38 @@ public class FristActivity extends Activity implements OnClickListener {
 	
 	  @Override
 	  public void run() {
-	   Intent i = new Intent(FristActivity.this, JoinActivity.class);
+	 
 	   myHandler.postDelayed(myRunnable, 2500);
-	   startActivity(i);
-	   stopProgressDialog();
-	   finish();
+	   
+	 
 	  }
 	 };
+	 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.first);
 		startProgressDialog() ;
-		 myHandler.postDelayed(myRunnable, 2500);
+		  Intent i = new Intent(FristActivity.this, JoinActivity.class);
+		  startActivity(i);
+		  stopProgressDialog();
+		   finish();
+		// myHandler.postDelayed(myRunnable, 2500);
+	}
+	@Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		super.onBackPressed();
+		System.exit(0);
 	}
 	public void startProgressDialog() 
 	{

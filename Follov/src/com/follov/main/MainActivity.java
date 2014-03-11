@@ -64,10 +64,6 @@ public class MainActivity extends FollovMainActivity implements OnClickListener 
     public static MainActivity getInstance() {
         return mInstance;
     }
-  
-   
-	
-	
     @Override
 	public void onBackPressed() {
 		// TODO Auto-generated method stub
